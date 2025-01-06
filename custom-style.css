@@ -1,0 +1,43 @@
+
+.custom-bullet-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: none;
+  }
+  .custom-bullet-list li {
+    position: relative;
+    padding-left: 15px;
+    padding-top:10px ;
+    margin-bottom: none;
+    font-size: 18px;
+    color: #333; /
+  }
+  .custom-bullet-list li::before {
+    content: "\2022"; 
+    position: absolute;
+    left: 0;
+    top: 5;
+    font-size: 30px;
+    color: #edcfae;
+    font-weight: bold;
+    line-height: 1; 
+  }
+   .icon img {
+    height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+  }
+  
+  .certificate-link {
+    font-weight: bold;
+    color: #d30d0d;  
+    text-decoration: none; 
+    transition: color 0.3s ease;  
+  }
+  .certificate-link:focus,
+  .certificate-link:active {
+    color: #ff5733; 
+  }
+  .certificate-link:hover {
+    color: #28a745;
+  }
